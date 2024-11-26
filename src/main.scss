@@ -315,14 +315,8 @@ body {
       }
 
       &:active &::after {
-        display: var(--_state-layer-display);
-        content: "";
-        position: absolute;
-        inset: 0;
         background-color: var(--md-sys-color-on-secondary-container);
-        opacity: 0.08;
-        z-index: -1;
-        border-radius: 28px;
+        opacity: 1;        
       }
 
       &:active {
